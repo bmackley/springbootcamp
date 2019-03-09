@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+}
+
+a{
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar{
+  height: 60px;
+  background-color: white;
+  filter: drop-shadow(1px 1px 2px black);
+}
+.navbar a{
+  float: right;
+}
+#benImage{
+  background: url("ben.jpg") center center scroll;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+  color: white;
+}
