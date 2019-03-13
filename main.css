@@ -21,9 +21,9 @@ a{
   background-size: cover;
   min-height: 100vh;
   display: flex;
-  justify-content: center; /* align horizontal */
   align-items: center;
   flex-direction: column;
   margin: 0px;
   color: white;
+  font-size: 2em;
 }
